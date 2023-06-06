@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="TestCases.SignUpTestCase" />
+			<class name="TestCases.LoginTestCase" />
+			<class name="TestCases.OneWayTripTestCase" />
+			<class name="TestCases.RoundTripTestCase" />
+			<class name="TestCases.DummyBookingTestCase" />
+			<class name="TestCases.PaymentDetailsTestCase" />
+			<class name="TestCases.ValidateFieldTestCase" />
+			<class name="TestCases.FlightSelectTestCase" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
